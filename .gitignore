@@ -1,0 +1,47 @@
+# Sistema Operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Node.js (si se usa algún servidor local)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Logs
+*.log
+logs/
+
+# Temporales
+*.tmp
+*.temp
+.cache/
+
+# Backup
+*.bak
+*.backup
+*~
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Docker (opcional - descomentar si no quieres trackear)
+# docker-compose.override.yml
+
+# Archivos de sistema
+*.pid
+*.seed
+*.pid.lock
